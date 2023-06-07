@@ -1,4 +1,233 @@
-<htm>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create GPA Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="action.js"></script>
+</head>
 <body>
+	<h1 style="text-align:center">GPA Calculator</h1>
+	
+	<table class="table1">
+		<tr>
+			<td><h4>Acadamic year</t></h4></td>
+			<td>
+				<select id="year">
+					<option value="1">1st year</option>
+					<option value="2">2nd year</option>
+					<option value="3">3rd year</option>
+					<option value="4">4th year</option>
+				</select>
+			</td>
+		</tr>
+		<tr >
+			<td><h4>Semester</h4></td>
+			<td>
+				<select id="semester">
+					<option value="1">1st semester</option>
+					<option value="2">2nd semester</option>
+				</select>
+			</td>
+		</tr>
+	</table>
+
+	<from>
+		<table class="table2" id="table2">
+			<tr>
+				<td><input type="text" id="subject1" placeholder="subject1"/></td>
+				<td><input type="text" id="sub1credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade1">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject2" placeholder="subject2"/></td>
+				<td><input type="text" id="sub2credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade2">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject3" placeholder="subject3"/></td>
+				<td><input type="text" id="sub3credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade3">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject4" placeholder="subject4"/></td>
+				<td><input type="text" id="sub4credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade4">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject5" placeholder="subject5"/></td>
+				<td><input type="text" id="sub5credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade5">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject6" placeholder="subject6"/></td>
+				<td><input type="text" id="sub6credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade6">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject7" placeholder="subject7"/></td>
+				<td><input type="text" id="sub7credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade7">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject8" placeholder="subject8"/></td>
+				<td><input type="text" id="sub8credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade8">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject9" placeholder="subject9"/></td>
+				<td><input type="text" id="sub9credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade9">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<td><input type="text" id="subject10" placeholder="subject10"/></td>
+				<td><input type="text" id="sub10credit" placeholder="credit" class="grade"/></td>
+				<td><select id="grade10">
+					<option value="4">A+</option>
+					<option value="4">A</option>
+					<option value="3.7">A-</option>
+					<option value="3.3">B+</option>
+					<option value="3">B</option>
+					<option value="2.7">B-</option>
+					<option value="2.3">C+</option>
+					<option value="2">C</option>
+					<option value="1.7">C-</option>
+					<option value="1.3">D+</option>
+					<option value="1">D-</option>
+					<option value="0.7">D</option>
+					</select></td>
+			</tr>
+		</table>
+		<br>
+		<button onclick="calculateGPA()">press</button>
+		<br><br>
+		<label>Overall GPA : </label>
+		<p id="result" ></p>
+	</from>
 </body>
 </html>
