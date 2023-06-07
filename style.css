@@ -1,1 +1,30 @@
+body {
+	border : 1px solid black;
+	padding : 20px;
+	height : 600px;
+	width : 400px;
+}
+
+.table1 {
+	margin : 20px;
+	width : 500px;
+	height : 40px;
+}
+
+.table2 {
+	width : 400px;
+	height : 40px;
+}
+
+tr {
+	height : 10px;
+}
+
+input {
+	width: 100px;
+}
+
+.grade {
+	width: 50px;
+}
 
